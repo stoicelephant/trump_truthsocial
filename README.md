@@ -1,2 +1,5 @@
-# trump_truthsocial
-This is a csv file containing "truths" scraped from the Truth Social Social Media Service. The data collection was performed on October 14th, 2025. 
+# Trump Truth Social
+This is a CSV file containing "truths" scraped from the Truth Social Social Media Service. The data collection was performed on October 14th, 2025. Note, 
+1) Contains truths from the inception of Trump's account in Feb. of 2022 - Oct 14th 2025
+2) Only contains truths containing text. Media (i.e, photo and video) truths were not collected.
+3) Data was collected using TruthBrush 
