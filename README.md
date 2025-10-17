@@ -6,7 +6,7 @@ This is a CSV file containing "truths" scraped from the Truth Social Social Medi
 4) Data was collected using TruthBrush 
 
 
-#Trump Market Truths
+# Trump Market Truths
 This CSV was constructed from the full CSV, but specifically has been limited to the subset of truths posted between stock market hours of (9:30am-4:00pm). 
 It was adapted (but not fully finished) to the current research question. It has an indicator column for holidays, which the market is closed or closes early. 
 RQ: Do Trump's posts on TruthSocial during market hours provide explanatory value on the response variable of SPY price fluctuation on different time scales? 
