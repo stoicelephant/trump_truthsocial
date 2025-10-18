@@ -7,6 +7,13 @@ This is a CSV file containing "truths" scraped from the Truth Social Social Medi
 
 
 # Trump Market Truths
-This CSV was constructed from the full CSV, but specifically has been limited to the subset of truths posted between stock market hours of (9:30am-4:00pm). 
+This CSV was constructed from the full CSV, but specifically has been limited to the subset of truths posted between stock market hours of (9:30am-4:00pm), during the time of Trumps Presidency. 
 It was adapted (but not fully finished) to the current research question. It has an indicator column for holidays, which the market is closed or closes early. 
 RQ: Do Trump's posts on TruthSocial during market hours provide explanatory value on the response variable of SPY price fluctuation on different time scales? 
+
+# Performance Table
+This CSV went through all of the non-weekend posts made by Donald Trump between market hours since his presidency in 2025, and checked the performance of the Polygon API to collect the ticker price candle at the desired time. 
+Our performance table most importantly showed us that it was able to grab the price candle at the desired timestamp for everything except the errors which were added to the perforamcne errors table (which right now we suspect is due to holidays) 
+
+# Performance Errors 
+
