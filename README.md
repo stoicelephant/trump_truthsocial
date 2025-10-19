@@ -11,9 +11,12 @@ This CSV was constructed from the full CSV, but specifically has been limited to
 It was adapted (but not fully finished) to the current research question. It has an indicator column for holidays, which the market is closed or closes early. 
 RQ: Do Trump's posts on TruthSocial during market hours provide explanatory value on the response variable of SPY price fluctuation on different time scales? 
 
+# Trump Open Market Truths
+This CSV is constructed from the TMT Csv, but has specifically limited weekends as well as all holidays. Testing on this csv has shown 100% call rate success with the polygon API. 
+
 # Performance Table
 This CSV went through all of the non-weekend posts made by Donald Trump between market hours since his presidency in 2025, and checked the performance of the Polygon API to collect the ticker price candle at the desired time. 
-Our performance table most importantly showed us that it was able to grab the price candle at the desired timestamp for everything except the errors which were added to the perforamcne errors table (which right now we suspect is due to holidays) 
+Our performance table most importantly showed us that it was able to grab the price candle at the desired timestamp for everything except the errors, which were dueto  holidays, which we expected to happen. It didn't error on all of the market holidays we took into account, and this is because some holidays only had the market closed for a portion of the day rather than the full day and the post was likely made on the holiday while market hours were still in session, For example on July 3rd before 1pm. For simplicitiy, we are going not to consider holidays at all, even the select few which didn't have errors, since we don't believe they generalize well for typical non-holiday market conditions.  
 
 # Performance Errors 
-
+Due to holidays. 
