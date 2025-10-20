@@ -20,3 +20,6 @@ Our performance table most importantly showed us that it was able to grab the pr
 
 # Performance Errors 
 Due to holidays. 
+
+# Tomt Price 
+The most up to date table in the project, which collected data for intraday prices 
